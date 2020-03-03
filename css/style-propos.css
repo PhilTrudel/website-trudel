@@ -1,0 +1,110 @@
+@font-face{
+    font-family: Muli;
+    src: url(polices/Muli-Regular.ttf)
+}
+@font-face{
+    font-family: theboldfont;
+    src: url(polices/theboldfont.ttf);
+}
+.html{
+    background-color: rgb(255, 255, 255);
+}
+
+.menu1{
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: left;
+    font-family: Muli;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+#option1 .content{
+    width: 600px;
+    margin:0 auto;
+    font-family: Muli;
+    text-align: left;
+    position: absolute;
+    left: 65%;
+    top: 60%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#option1 .content2{
+    position: absolute;
+    left: 65%;
+    top: 60%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.menu2{
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: left;
+    font-family: Muli;
+    font-size: 16px;
+    list-style-type: none;
+    color: black;
+}
+.titre{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: theboldfont;
+    text-align: center;
+    font-size: 80px;
+    color: #ed9414 ;
+}
+
+.titre2{
+    position: absolute;
+    left: 50%;
+    top: 24%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: theboldfont;
+    text-align: center;
+    font-size: 72px;
+    color: black;
+}
+
+.float-img{
+    float: left;
+    margin-left: 30%;
+    margin-top: 21%;
+    height: 300px;
+    width: 300px;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.propos {
+    font-size: 1.8em;
+    margin: 0 3em 0 1em;
+}
+
+.imagePhoto {
+    width: 45vw;
+    float: left;
+    margin: 0 5em 3em 5em;
+}
