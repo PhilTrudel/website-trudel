@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Alata', sans-serif;
+}
+
+html {
+  background-color: #d9d9d9;
+  scroll-behavior: smooth;
+}
+
+.color-orange {
+  color: #F29422;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title-header {
+  padding: 0.5em 2em;
+  font-size: 2.5em;
+  margin-right: auto;
+}
+
+.header-menu {
+  margin-top: 0;
+  padding: 0.5em 3em;
+  font-size: 1.5rem;
+}
+
+.header-menu li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header-menu a {
+  padding-left: 0.5em;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+#bio {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%);
+          transform: translate(50%);
+  text-align: justify;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+#bio h3 {
+  text-align: center;
+  font-size: 2em;
+}
+
+#bio p {
+  padding: 0;
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.content #about, .content #projects, .content #contact {
+  margin: 3rem 0 2.5rem 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.content #about::first-letter, .content #projects::first-letter, .content #contact::first-letter {
+  color: #F29422;
+}
+
+.content .about p {
+  font-family: 'roboto', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 0 2em 2em 2em;
+  text-align: center;
+}
+
+.content .about marquee {
+  background-color: #F29422;
+  color: white;
+  font-size: 6rem;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+.content .projects .container {
+  width: 94vw;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(420px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+}
+
+.content .projects .container .card {
+  background-color: white;
+  padding: 2rem;
+  margin: 1.5rem;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  outline: 1px solid #eae6ef;
+}
+
+.content .projects .container .card-content p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 0;
+}
+
+.content .projects .container .card-content img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=main.css.map */
