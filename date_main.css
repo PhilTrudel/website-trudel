@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+  }
+
+  html {
+    background-image: linear-gradient(to right, #eecda3, #ef629f);
+    scroll-behavior: smooth;
+  }
+  
+  .title{
+      margin: 20px;
+      position: absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    padding: 25px;
+  }
+
+  h1, h2{
+      filter: drop-shadow(1px 1px white);
+      text-align: center;
+  }
+
+  .title2{
+    margin: 20px;
+    position: absolute;
+  top:35%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  padding: 25px;
+  }
+
+  .blue{
+    color:#4286f4 ;
+    filter: drop-shadow(1px 1px black);
+  }
+
+  .orange{
+    color: #f5af19;
+    filter: drop-shadow(1px 1px black);
+  }
+
+.pate{
+    margin: 20px;
+    position: absolute;
+  top:65%;
+  left:20%;
+  transform:translate(-50%, -50%);
+  padding: 25px;
+}
+
+.brownie{
+    margin-top: 20px;
+    position: absolute;
+  top:65%;
+  left:74%;
+  transform:translate(-50%, -50%);
+}
+
+.spotify{
+    margin-top: 20px;
+    position: absolute;
+  top:55%;
+  left:42%;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+

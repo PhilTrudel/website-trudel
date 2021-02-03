@@ -132,4 +132,12 @@ header {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
 /*# sourceMappingURL=main.css.map */
+
+.cv_img{
+  height: 50%;
+  width: 50%;
+  padding: 25px;
+  background-color: #d9d9d9;
+}
