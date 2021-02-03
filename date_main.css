@@ -56,17 +56,11 @@
 .brownie{
     margin-top: 20px;
     position: absolute;
-  top:65%;
+  top:68%;
   left:74%;
   transform:translate(-50%, -50%);
 }
 
-.spotify{
-    margin-top: 20px;
-    position: absolute;
-  top:55%;
-  left:42%;
-}
 
 a{
 text-decoration: none;
