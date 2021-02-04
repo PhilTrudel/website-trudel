@@ -104,3 +104,42 @@ h1, h2{
     transform:translate(-50%, -50%);
     }
 }
+
+@media screen and (max-width: 667px){   
+    h1{
+          font-size: 22px;
+      }
+    h2{
+          font-size:14px ;
+      }
+    h1, h2{
+            filter: drop-shadow(1px 1px white);
+        }
+    .title{
+          margin:0;
+          padding:0;
+    
+        }
+    .title2{
+        margin:0;
+        padding:0;
+        top: 50%;
+        left: 50%;
+        }
+    
+    .pate{
+        margin:0;
+        padding:0;
+        top: 85%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        }
+        
+    .brownie{
+        margin:0;
+        padding:0;
+        top: 130%;
+        left: 50%;
+        transform:translate(-50%, -50%);
+        }
+    }
