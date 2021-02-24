@@ -1,0 +1,53 @@
+
+.main_img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position:50% 50%;
+}
+
+
+.container_index{
+    position: relative;
+    height: 100%;
+}
+
+.container_index .row {
+    height: 100%;
+}
+
+.container_index .row article {
+    text-align: center;
+}
+
+li{
+    color: var(--text);
+}
+
+.card{
+    margin:20px;
+    margin-bottom: 2vw;
+    border: none;
+    text-align: justify;
+  }
+
+.btn{
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+footer a:hover{
+    color: white;
+  }
+
+  .bandeau{
+    color: white;
+    background-color: var(--primary);
+    font-family: 'Bowlby One SC', sans-serif;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.bandeau .col{
+    height: 50px;
+}

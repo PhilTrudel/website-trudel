@@ -1,4 +1,7 @@
+@import 'starwars.css';
+
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -140,4 +143,8 @@ header {
   width: 50%;
   padding: 25px;
   background-color: #d9d9d9;
+}
+
+nav{
+  margin-bottom: 3vw;
 }

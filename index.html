@@ -5,14 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Philippe Trudel</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <h1 class="title-header">Philippe <span class=color-orange>Trudel</span></h1>
-        <div class="header-menu">
-            <li><a href="#">Projets</a></li>
-            <li><a href="#">Contact</a></li>
+    <nav class="navbar navbar-dark navbar-expand-lg" style="background: #D38312">
+        <div class="container">
+          <a class="navbar-brand" href="#" style="font-size:22px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Philippe Trudel</a>
+            <button class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="mainNav" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Plus</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="date.html" class="dropdown-item">St-Valentin</a>
+                  </li>
+                  <li>
+                    <a href="swrpg.html" class="dropdown-item">Star Wars: RPG</a>
+                  </li>
+                </ul>
+              </li>
+              </ul>
+            </div>
         </div>
+      </nav>
+    <header>
     </header>
     <main>
         <div>
@@ -80,8 +108,12 @@
                <p> Here you will find my Curriculum Vitae with my incredible experiences and the best recommendations.<br> Do not hesitate to contact me!</p>
                </div>    
            </div>
-           <div>
-               <img src="medias/cv_img.png" class="cv_img" alt="Curriculum vitae">
+           <div class="container">
+           <div class="row">
+            <div class="col-12 justify-item-center">
+               <img src="medias/cv_img.png" class="img-fluid" alt="Curriculum vitae">
+           </div>
+           </div>
            </div>
         </div>
     </main>
