@@ -6,9 +6,10 @@
     font-family: 'Alata', sans-serif;
   }
 
-  html {
+  html, body {
     background-image: linear-gradient(to right, #eecda3, #ef629f);
     scroll-behavior: smooth;
+    font-family: 'Alata', sans-serif;
   }
   
   .title{

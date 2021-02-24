@@ -46,8 +46,16 @@ footer a:hover{
     font-family: 'Bowlby One SC', sans-serif;
     margin-top: -10px;
     margin-bottom: 20px;
+    padding:10px 0;
 }
 
 .bandeau .col{
     height: 50px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
 }
