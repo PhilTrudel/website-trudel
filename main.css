@@ -148,3 +148,10 @@ header {
 nav{
   margin-bottom: 3vw;
 }
+
+footer{
+  background:#D38312;
+  padding: 20px 0;
+  margin: 20px 0 0 0;
+  color: black;
+}
