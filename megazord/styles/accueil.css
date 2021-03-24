@@ -1,0 +1,116 @@
+.heros{
+    position: relative;
+    width: 100vw; height: 100vh;
+}
+
+.heros picture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.heros .main_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 60% 50%;
+}
+
+.contraste{
+    position: absolute;
+    background-color: var(--secondary);
+    opacity: 0.15;
+    height: 100%;
+    width: 100%;
+}
+
+.container_index{
+    height: 100vh;
+    position: relative;
+    z-index: 99;
+}
+
+.container_index .row {
+    height: 100vh;
+}
+
+.container_index .row article {
+    text-align: center;
+}
+
+li{
+    color: var(--text);
+}
+
+.card{
+    margin:10px;
+    border: none;
+  }
+
+.btn{
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+footer a:hover{
+    color: white;
+  }
+
+  .accueil .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  }
+
+.ratio{
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.promotions .swiper-slide img{
+    width: 100%;
+}
+
+.promotions .swiper-container{
+    width: 100%; height: 0;
+    padding-bottom: 56.25%;
+}
+
+.promotions .swiper-pagination-bullet{
+    background: var(--secondary);
+}
+
+.promotions .swiper-pagination-bullet-active{
+    background: var(--primary);
+}
+
+.credits h5:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.credits .btn{
+    background: none;
+    border: none;
+    color: black;
+    outline-color: none;
+}
+
+.modal-body{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video{
+
+}
+
+.promotions{
+
+}
+
+@media screen and (orientation: landscape) {
+    .heros {
+      height: 56.25vw;
+    }
+  }
