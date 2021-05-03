@@ -15,15 +15,23 @@ fetch("json/warcraft.json")
         btn.setAttribute("data-id", post.id);
         btn.innerText = post.title;
         nav.appendChild(btn);
-
+        document.addEventListener('load', (event) => {
+            event++;
+            console.log(event);
+            HMTL(event[0]);
+        });
         btn.addEventListener("click", () => {
-            bg.src = post.media;
-            titre.innerHTML = post.title;
-            paragraphe.innerHTML = post.description;
-            masque.style.backgroundColor = post.color;
-            annee.innerHTML = post.year;
-            imageTop.src = post.plateform;
-            hero.style.backgroundColor = post.color;
+          HMTL(post);  
         });
       }); 
   });
+
+function HMTL(art) {
+    bg.src = art.media;
+    titre.innerHTML = art.title;
+    paragraphe.innerHTML = art.description;
+    masque.style.backgroundColor = art.color;
+    annee.innerHTML = art.year;
+    imageTop.src = art.plateform;
+    hero.style.backgroundColor = art.color;
+}
