@@ -1,0 +1,51 @@
+{
+    "license": "Warcraft",
+    "type": "RTS (Real Time Strategy)",
+    "games": [
+      {
+        "id": 1,
+        "title": "Warcraft III: The Frozen Throne",
+        "description": "Le scénario de The Frozen Throne fait suite à celui de Reign of Chaos et permet au joueur d’incarner successivement les Elfes de la Nuit, l’Alliance puis les Morts-Vivants. L’extension inclut également une campagne bonus dans laquelle le joueur ne contrôle que des héros et qui raconte la suite de la colonisation de Kalimdor par la Horde.",
+        "year": 2003 ,
+        "plateform": "medias/license/windows.jpg",
+        "color": "#237be0",
+        "media": "medias/license/warcraft03-2.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Warcraft II: Beyond the Dark Portal",
+        "description": "Warcraft II: Beyond the Dark Portal est un pack d'extension pour le jeu vidéo de stratégie en temps réel Warcraft II: Tides of Darkness pour Microsoft Windows et Macintosh. Il a été développé par Blizzard Entertainment et Cyberlore Studios, et publié par Blizzard en Amérique du Nord et en Europe en 1996. Il nécessite la version complète du jeu original pour fonctionner et ajoute de nouvelles campagnes d'histoire et des cartes multijoueurs.",
+        "year": 1996 ,
+        "plateform": "medias/license/windows.jpg",
+        "color": "#8528e2",
+        "media": "medias/license/warcraft02.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Warcraft III: Reign of Chaos",
+        "description": "Warcraft III: Reign of Chaos est un jeu vidéo de stratégie en temps réel (STR) développé par Blizzard Entertainment. Il s'agit du troisième volet de la série Warcraft et du quatrième jeu de stratégie en temps réel développé par le studio après Warcraft: Orcs and Humans, Warcraft II: Tides of Darkness et StarCraft ayant connu de solides succès critiques et commerciaux.",
+        "year": 2002 ,
+        "plateform": "medias/license/windows.jpg",
+        "color": "#dd3333",
+        "media": "medias/license/warcraft03.jpeg"
+      },
+      {
+        "id": 4,
+        "title": "Warcraft II: Tides of Darkness",
+        "description": "Warcraft II: Tides of Darkness prend place dans le monde imaginaire de type médiéval-fantastique développé dans le premier opus de la série. L'histoire fait suite à la campagne des Orcs de Warcraft: Orcs and Humans qui retraçait l'invasion du royaume humain d'Azeroth par les Orcs venus du monde de Draenor et qui se terminait par la défaite des Humains et la destruction d'Azeroth.",
+        "year": 1995 ,
+        "plateform": "medias/license/windows.jpg",
+        "color": "#66d617",
+        "media": "medias/license/warcraft02-2.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Warcraft : Orcs and Humans",
+        "description": "Warcraft: Orcs and Humans est un jeu vidéo de stratégie en temps réel (STR) développé par Blizzard Entertainment, publiée par Interplay Entertainment en novembre 1994 et la version pour Macintosh en 1996. Le jeu est le premier succès commercial de Blizzard Entertainment et est accueilli avec enthousiasme par la presse spécialisée. Il obtient ainsi plusieurs récompenses dans les années suivant sa sortie.",
+        "year": 1994 ,
+        "plateform": "medias/license/windows.jpg",
+        "color": "#dd8e18",
+        "media": "medias/license/warcraft.jpg"
+      }
+    ]
+  }

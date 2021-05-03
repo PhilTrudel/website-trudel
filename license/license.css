@@ -1,0 +1,84 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    font-family:muli;
+  }
+
+  html, body{
+      height: 100%;
+  }
+  
+  .hero{
+    background-color:black;
+    height:60vh;
+    width: 50vw;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    position:relative;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .text{
+    position:absolute;
+    width:75%;
+    bottom:30px;
+    padding:30px;
+    color:white;
+  }
+  
+  .bg{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position:relative;
+  }
+  
+  .shadow{
+    background-color:black;
+    opacity:0.4;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  
+  .plateforme{
+    position:absolute;
+    background-color:white;
+    height:60px;
+    width:60px;
+    border-radius:20px;
+    top:30px;
+    left:30px;
+    object-fit:cover;
+  }
+  
+  .annee{
+    position:absolute;
+    bottom:30px;
+    right:30px;
+    color:white;
+  }
+  .nav {
+    background-color:black;
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  button{
+    margin:5px 50px 30px 50px;
+    padding:5px;
+    background-color:#242424;
+    color:white;
+    border:none;
+  }
+
+  .background{
+    height: 100%;
+    background-color: black;
+  }
