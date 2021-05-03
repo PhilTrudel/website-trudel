@@ -22,7 +22,6 @@ fetch("json/games.json")
       }); 
   });
 
-  
 function HMTL(art) {
     bg.src = art.media;
     titre.innerHTML = art.title;
