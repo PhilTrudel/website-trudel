@@ -35,3 +35,29 @@ gsap.registerPlugin(ScrollTrigger);
       {y: 50, opacity: 0}, '-= 0.75')
   });
 
+  let timeout;
+  let animation = document.querySelector('.background-anim .sprite');
+  
+  gsap.to('#main', {
+    scrollTrigger: {
+      trigger: '#main',
+      onUpdate: (e) => {
+        animation.classList.remove('idle');
+        clearTimeout(timeout);
+        timeout = setTimeout(() => {
+          animation.classList.add('idle');
+          animation.classList.remove('scrolldown');
+          animation.classList.remove('scrollup');
+        }, 500)
+        
+        if(e.direction == 1) {
+          animation.classList.add('scrolldown');
+          animation.classList.remove('scrollup');
+        } 
+        if(e.direction == -1) {
+          animation.classList.remove('scrolldown');
+          animation.classList.add('scrollup');
+        }
+      }
+    }
+  });

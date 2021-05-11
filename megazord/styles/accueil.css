@@ -101,16 +101,50 @@ footer a:hover{
     margin-right: auto;
 }
 
-.video{
-
-}
-
-.promotions{
-
-}
-
 @media screen and (orientation: landscape) {
     .heros {
       height: 56.25vw;
     }
   }
+
+
+.background-anim {
+    position: sticky;
+    top: 40%;
+  }
+  
+.sprite{
+    background-size: 100%;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+.sprite.scrolldown{
+    background-image: url('../img/spritesheet_drums_scrolldown.png');
+    animation: scrolldown 0.75s steps(23) infinite;
+    }
+  @keyframes scrolldown {
+     0% { background-position: 0 0px; }
+     100% { background-position: 0px 100%; }
+  }
+
+.sprite.scrollup {
+    background-image: url('../img/spritesheet_drums_scrollup.png');
+    animation: scrollup 0.75s steps(23) infinite;
+    }
+  @keyframes scrollup {
+     0% { background-position: 0 100%; }
+     100% { background-position: 0px 0px; }
+  }
+
+  .sprite.idle {
+    background-image: url('../img/spritesheet_drums_idle.png');
+    animation: idle 0.75s steps(23) infinite;
+    }
+  @keyframes idle {
+     0% { background-position: 0 0; }
+     100% { background-position: 0px 100%; }
+  }
+
+ 

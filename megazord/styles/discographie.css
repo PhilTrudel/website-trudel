@@ -49,13 +49,13 @@ footer a:hover{
     color: white;
   }
 
-  .ratio{
+.ratio{
     width: 100%;
     height: 0;
     padding-bottom: 56.25%;
 }
 
-section .container h3 {
+section .container .split h3 {
     font-family: 'Bowlby One SC', sans-serif;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -65,3 +65,55 @@ section .container h3 {
 .split{
     margin: 50px 0px 50px 0px;
 }
+
+section{
+    display: flex; 
+}
+
+.meteora{
+    padding-left: 50px;
+}
+
+.background-animDisco {
+    position: sticky;
+    top: 40%;
+  }
+  
+.spriteDisco{
+    background-size: 100%;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+.spriteDisco.scrolldown{
+    background-position: 0 100%;
+    background-image: url('../img/spritesheets/css_sprites_animation_01_transparent.png');
+    animation: scrollDown 1s steps(29) 1;
+    animation-direction: reverse;
+    }
+  @keyframes scrollDown {
+     0% { background-position: 0 100%; }
+     100% { background-position: 0px 0px; }
+  }
+
+.spriteDisco.scrollup {
+    background-position: 0px 86.21%;
+    background-image: url('../img/spritesheets/css_sprites_animation_03_transparent.png');
+    animation: scrollUp 1s steps(25) 1;
+    }
+  @keyframes scrollUp {
+     0% { background-position: 0 0px; }
+     100% { background-position: 0px 86.21%; }
+  }
+  
+  .spriteDisco.idle {
+    background-image: url('../img/spritesheets/css_sprites_animation_02_transparent.png');
+    animation: idle 1s steps(30) infinite;
+    }
+  @keyframes idle {
+     0% { background-position: 0 0; }
+     100% { background-position: 0px 100%; }
+  }
+
+ 

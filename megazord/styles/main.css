@@ -62,6 +62,164 @@ footer a{
 
 section {margin-bottom: 50px;}
 
-a {text-decoration: none; color: $text;}
+a {text-decoration: none; color: var(--text);}
 
 .ratio {width: 100%; height: 0; padding-bottom: 56.25%; }
+
+.pointer{
+  cursor: pointer;
+}
+
+.modal-header.quiz {
+  background-color: #D38312;
+  color: black;
+  font-family: 'Bowlby One SC', sans-serif;
+}
+
+.modal-header.quiz-alt {
+  background-color: #FFD000;
+  color: #ebebeb;
+}
+
+.modal-body.quiz {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.modal-body.quiz input[type="radio"] {
+  margin-right: 5px;
+}
+
+.modal-body.quiz .question {
+  display: none;
+}
+
+.modal-body.quiz .is-visible {
+  display: block;
+}
+
+.modal-body.quiz .question.is-visible.last {
+  text-align: center;
+  font-family: 1.2rem;
+}
+
+.modal-body.quiz .question.is-visible.last strong {
+  font-size: 3rem;
+}
+
+.modal-body.quiz .bg-true,
+.modal-body.quiz .logo-true,
+.modal-body.quiz .checkmark,
+.modal-body.quiz .text-true {
+  opacity: 0;
+}
+
+.modal-body.quiz .bg-true {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-100px;
+  width:200px;
+  height:200px;
+  background-color:#50C878;
+  z-index:1;
+  border-radius:50%;
+}
+
+.modal-body.quiz .text-true {
+  position: fixed;
+  top:50%;
+  left:50%;
+  margin-top:40px;
+  margin-left:-200px;
+  font-size: 3rem; font-weight: 800;
+  text-transform: uppercase;
+  color: #00cc00;
+  z-index:3;
+  
+  -webkit-text-stroke: 2px black;
+  text-shadow: 3px 3px 10px black;
+}
+
+.modal-body.quiz .cross,
+.modal-body.quiz .bg-wrong.red,
+.modal-body.quiz .bg-wrong,
+.modal-body.quiz .text-wrong {
+  opacity: 0;
+}
+
+.modal-body.quiz .bg-wrong{
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-100px;
+  width:200px;
+  z-index:2;
+}
+
+.modal-body.quiz .bg-wrong.red{
+  width:200px;
+  height:200px;
+  background-color:#D62728;
+  border-radius:50%;
+}
+
+.modal-body.quiz .cross {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-65px;
+  width:125px;
+  z-index:2;
+}
+
+.modal-body.quiz .text-wrong{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direection: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.modal-body.quiz .logo-true{
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;
+  margin-left:-100px;
+  width:200px;
+  z-index:2;
+}
+.modal-body.quiz .checkmark{
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-30px;
+  margin-left:-95px;
+  width:175px;
+  z-index:1;
+}
+
+.logo{
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 50%;
+  top:40%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+

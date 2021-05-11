@@ -15,8 +15,8 @@
     <header>
         <div class="heros">
             <picture>
-                <source srcset="/megazord/img/lp-landscape.jpg" media="(orientation: landscape)">
-                <img class="main_img" src="/megazord/img/lp-portrait.jpg" alt="Linkin Park">
+                <source srcset="megazord/img/lp-landscape.jpg" media="(orientation: landscape)">
+                <img class="main_img" src="megazord/img/lp-portrait.jpg" alt="Linkin Park">
             </picture>
             <div class="contraste"></div>
             <div class="container_index">
@@ -36,10 +36,10 @@
                 </div>
             </div>
         </div>
-    </header> 
+    </header>
     <nav class="navbar sticky-top navbar-light navbar-expand-sm " style="background-color: var(--primary);">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"
+            <a class="navbar-brand" href="index_mega.html"
                 style="font-size: 2.5em; font-family: var(--title); margin-left: 5vw;">Linkin Park</a>
             <button class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"
                 aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
@@ -53,6 +53,9 @@
                     <li class="nav-item">
                         <a href="discographie.html" class="nav-link active">Discographie</a>
                     </li>
+                    <li class="nav-item">
+                        <a data-bs-toggle="modal" data-bs-target="#quiz" class="nav-link active pointer">Quiz</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -60,8 +63,10 @@
     <main id="main">
             <div class="row">
                     <div class="d-none d-md-block col-md-3">
-                     <img src="/megazord/img/tba.png" class="img-fluid">
-                 </div> 
+                     <div class="background-anim">
+                            <div class="sprite"></div>
+                        </div>
+                    </div> 
                 <div class="col-md-9">
                     <section class="section">
                         <div class="container">
@@ -69,7 +74,7 @@
                                 <h1 id="title" style="color: black; margin-top: 3vh;">Membres de Linkin Park</h1>
                                 <div class="col-sm-6">
                                     <div class="card">
-                                        <img src="/megazord/img/lp_chester.jpg" class="img-fluid" alt="Chester Bennington">
+                                        <img src="megazord/img/lp_chester.jpg" class="img-fluid" alt="Chester Bennington">
                                         <div class="card-body">
                                             <h1 class="card-title" style="color: var(--secondary);">Chester Bennington</h2>
                                                 <h3 class="card-title">Chanteur</h3>
@@ -85,7 +90,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="card">
-                                        <img src="/megazord/img/lp_mike.jpg" class="img-fluid" alt="Mike Shinoda">
+                                        <img src="megazord/img/lp_mike.jpg" class="img-fluid" alt="Mike Shinoda">
                                         <div class="card-body">
                                             <h1 class="card-title" style="color: var(--secondary);">Mike Shinoda</h2>
                                                 <h3 class="card-title">Chanteur, guitare et piano</h3>
@@ -101,7 +106,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="card">
-                                        <img src="/megazord/img/lp_joe.jpg" class="img-fluid" alt="Joe Hahn">
+                                        <img src="megazord/img/lp_joe.jpg" class="img-fluid" alt="Joe Hahn">
                                         <div class="card-body">
                                             <h1 class="card-title" style="color: var(--secondary);">Joe Hahn</h2>
                                                 <h3 class="card-title">DJing, samples et clavier</h3>
@@ -116,7 +121,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="card">
-                                        <img src="/megazord/img/lp_dave.jpg" class="img-fluid" alt="Dave Farrell">
+                                        <img src="megazord/img/lp_dave.jpg" class="img-fluid" alt="Dave Farrell">
                                         <div class="card-body">
                                             <h1 class="card-title" style="color: var(--secondary);">Dave Farrell</h2>
                                                 <h3 class="card-title">Bassiste</h3>
@@ -132,7 +137,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="card">
-                                        <img src="/megazord/img/lp_rob.jpg" class="img-fluid" alt="Rob Bourdon">
+                                        <img src="megazord/img/lp_rob.jpg" class="img-fluid" alt="Rob Bourdon">
                                         <div class="card-body">
                                             <h1 class="card-title" style="color: var(--secondary);">Rob Bourdon</h2>
                                                 <h3 class="card-title">Batterie et percussions</h3>
@@ -148,7 +153,7 @@
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="card">
-                                        <img src="/megazord/img/lp_brad.jpg" class="img-fluid" alt="Brad Delson">
+                                        <img src="megazord/img/lp_brad.jpg" class="img-fluid" alt="Brad Delson">
                                         <div class="card-body">
                                             <h1 class="card-title" style="color: var(--secondary);">Brad Delson</h2>
                                                 <h3 class="card-title">Guitariste solo</h3>
@@ -172,12 +177,12 @@
                                     <h1 id="title" class="text-align-center text-center" style="color: black; margin-top: 3vh;">Images
                                         promotionnelles</h1>
                                     <div class="swiper-wrapper">
-                                        <div class="swiper-slide"><img src="/megazord/img/lp-promo01.jpg"></div>
-                                        <div class="swiper-slide"><img src="/megazord/img/lp-promo02.jpg"></div>
-                                        <div class="swiper-slide"><img src="/megazord/img/lp-promo03.jpg"></div>
-                                        <div class="swiper-slide"><img src="/megazord/img/lp-promo04.jpg"></div>
-                                        <div class="swiper-slide"><img src="/megazord/img/lp-promo05.jpg"></div>
-                                        <div class="swiper-slide"><img src="/megazord/img/lp-promo06.jpg"></div>
+                                        <div class="swiper-slide"><img src="megazord/img/lp-promo01.jpg"></div>
+                                        <div class="swiper-slide"><img src="megazord/img/lp-promo02.jpg"></div>
+                                        <div class="swiper-slide"><img src="megazord/img/lp-promo03.jpg"></div>
+                                        <div class="swiper-slide"><img src="megazord/img/lp-promo04.jpg"></div>
+                                        <div class="swiper-slide"><img src="megazord/img/lp-promo05.jpg"></div>
+                                        <div class="swiper-slide"><img src="megazord/img/lp-promo06.jpg"></div>
                                     </div>
                                     <div class="swiper-pagination"></div>
                                 </div>
@@ -221,7 +226,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="/megazord/img/philippe_modal.jpg" width="300px" height="300px">
+                    <img src="megazord/img/philippe_modal.jpg" width="300px" height="300px">
                 </div>
             </div>
         </div>
@@ -234,7 +239,30 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <img src="/megazord/img/gabriel_modal.jpg" width="300px" height="300px">
+                    <img src="megazord/img/gabriel_modal.jpg" width="300px" height="300px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="quiz" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header quiz">
+                    <h4 class="modal-title">Quiz Linkin Park</h4>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la fenêtre"></button>
+                </div>
+                <div class="modal-body quiz">
+                <div>
+                    <p class="text-true">Bonne réponse</p>
+                    <div class="bg-true"></div>
+                    <img class="logo-true" src="megazord/img/lp-logo.png"/>
+                    <img class="checkmark" src="megazord/img/checkmark.png"/>
+                </div> 
+                <div>
+                    <img src="megazord/img/mauvaise_reponse_cercle.png" class="logo part03" />
+                    <img src="megazord/img/mauvaise_reponse_X.png" class="logo part02" />
+                    <img src="megazord/img/lp-logo02.png" class="logo part01" />
+                    <div class="text-wrong">Mauvaise réponse</div>
                 </div>
             </div>
         </div>
