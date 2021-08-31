@@ -1,0 +1,26 @@
+@import url(glitch.css);
+
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #232526;  /* fallback for old browsers */
+    min-height: 75vh;
+    display:grid;
+    place-items: center;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.text{
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;
+    margin:auto;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+}

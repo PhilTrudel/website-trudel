@@ -1,147 +1,51 @@
 <!DOCTYPE html>
-<html lang="en" class="html">
+<html lang="fr">
+<link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+<link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+<style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+<style lang="en" type="text/css" id="dark-mode-native-style"></style>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Philippe Trudel</title>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="medias/favicon.png" type="image/svg" sizes="16x16">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Bienvenue!</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-dark navbar-expand-lg" style="background: #D38312">
-    <div class="container">
-      <a class="navbar-brand" href="#" style="font-size: 26px;">Philippe Trudel</a>
-      <button class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"
-        aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="mainNav" class="collapse navbar-collapse">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a href="#bio" class="nav-link"> À propos</a>
-          </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link">Projets</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <header>
-  </header>
-  <main>
-    <div>
-      <div id="bio">
-        <div class="txt-bio">
-          <h3><span class="color-orange">À </span>Propos</h3>
-          <p> Étudiant en Intégration multimédia et avide de défis! J'ai une bonne habilité à manger des chips et
-            trouver mes bugs dans mon code!
-            Connaissance des logiciels de la gamme d'Adobe et une expérience élevé en HTML, CSS et débutant en JS/PHP.
-          </p>
+    <header></header>
+    <main>
+        <div class="d-flex justify-content-center align-items-center">
+            <p class="glitch">
+                    <span aria-hidden="true">Bienvenue!</span aria-hidden="true">
+                    Bienvenue!
+                    <span>Bienvenue!</span>
+            </p>
         </div>
-      </div>
-    </div>
-    <div class="content">
-      <p id="projects">Projets</p>
-      <div class="projects">
-        <!--Add Owl Carousel with cards for projects-->
-        <div class="container">
-          <div class="card">
-            <div class="card-content">
-              <p>Stage Cyberimpact</p>
-              <a href="https://faq.cyberimpact.com/fr">
-                <img src="medias/jpg/faq_cyberimpact.png" alt="">
-              </a>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title" style="color: var(--secondary);">
-                </h2>
-                <p>Projet de refonte du site FAQ pour la compagnie de courriel marketing
-                  Cyberimpact. J'étais stagiaire pour ce projet et je m'occupais de l'intégration du code
-                  HTML/CSS depuis un modèle.
-                </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <p>Projet Mégazord - Linkin Park</p>
-              <a href="index_mega.html">
-                <img src="/megazord/img/lp-landscape.jpg" alt="">
-              </a>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title" style="color: var(--secondary);">
-                </h2>
-                <p>Projet du cours Optimisation Web pour la session d'Hiver 2021. Réalisation en pair avec
-                  un autre étudiant qui s'est occupé de la page Discographie. Intégré avec le language de bootstrap
-                  ainsi que GSAP.
-                </p>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-content">
-              <p>License de jeux</p>
-              <a href="license.html">
-                <img src="medias/license/warcraft03-2.jpg" alt="">
-              </a>
-            </div>
-            <div class="card-body">
-              <h1 class="card-title" style="color: var(--secondary);">
-                </h2>
-                <p>Exercice amusant pour le cours d'Optimisation Web; Faire un Fetch d'une base de donnée JSON d'une license de jeu que nous aimons.
-                  J'ai choisi la license Warcraft de Blizzard Entertainement puisque je suis un fan de l'opus World of Warcraft.
-                </p>
-            </div>
-          </div>
-
+        <div class="d-flex justify-content-center text-center">
+            <p class="text">Philippe vous prépare le portfolio le plus <span style="font-style: italic;">hot</span>&#128293;
+                que vous aurez vu!</p>
         </div>
-      </div>
-      <p id="contact">Contact</p>
-      <div id="bio">
-        <div class="txt-bio">
-          <p> Ici vous trouverez mon <a
-              href="https://smallpdf.com/shared#st=bd53038f-edf7-4278-a93b-01b90d8e5e8e&fn=cv.pdf&ct=1616628981750&tl=share-document&rf=link"
-              target="_blank">Curriculum Vitae</a> avec mes expériences incroyables et les meilleurs
-            recommendations.<br> N'hésitez pas à me contacter!</p>
-        </div>
-      </div>
-    </div>
-  </main>
-  <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-sm-6 text-center text-sm-left">
-          <h4 data-bs-toggle="modal" data-bs-target="#phil">Philippe Trudel</h4>
-        </div>
-        <div class="col-12 col-sm-6 text-center text-sm-right">
-          <h5>© 2020</h5>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <div class="modal fade" id="phil" tabindex="-1" aria-labelledby="phil" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title" id="phil">Philippe Trudel</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="/megazord/img/philippe_modal.jpg" width="300px" height="300px">
-        </div>
-      </div>
-    </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"></script>
-  <script src="script/script.js"></script>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"
+        integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"
+        integrity="sha512-jNJOCd1PIjJoUa1XTDKaPdBLNUe4OJTrltKG+70O5ghYZ943nTRGIzjObwC2JtSm1fG7T06GbUApR2eirIU/jA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script/main.js"></script>
 </body>
 
 </html>

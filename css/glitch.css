@@ -1,0 +1,80 @@
+.glitch{
+    font-size: 6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    margin:auto;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    text-shadow: 
+    0.05em 0 0 rgba(255, 0, 0, .75),
+    -0.025em -0.05em 0 rgba(0, 255, 0, .75),
+    0.025em 0.05em 0 rgba(0, 0, 255, .75);
+
+    animation: glitch 500ms infinite;
+}
+
+.glitch span{
+    position: absolute;
+    top:0;left:0;
+}
+
+.glitch span:first-child{
+    animation: glitch 650ms infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 45%);
+    transform: translate(-0.05em, -0.025em);
+    opacity: 0.8;
+}
+
+.glitch span:last-child{
+    animation: glitch 400ms infinite;
+    clip-path: polygon(0 60%, 100% 60%, 100% 100%, 0 100%);
+    transform: translate(-0.05em, 0.025em);
+    opacity: 0.8;
+}
+
+@keyframes glitch {
+    0%{
+        text-shadow: 
+        0.05em 0 0 rgba(255, 0, 0, .75),
+        -0.025em -0.05em 0 rgba(0, 255, 0, .75),
+        0.025em 0.05em 0 rgba(0, 0, 255, .75);
+    }
+    14%{
+        text-shadow: 
+        0.05em 0 0 rgba(255, 0, 0, .75),
+        -0.025em -0.05em 0 rgba(0, 255, 0, .75),
+        0.025em 0.05em 0 rgba(0, 0, 255, .75);
+    }
+    15%{
+        text-shadow: 
+        -0.05em -0.025em 0 rgba(255, 0, 0, .75),
+        0.025em 0.025em 0 rgba(0, 255, 0, .75),
+        -0.05em -0.05em 0 rgba(0, 0, 255, .75);
+    }
+    49%{
+        text-shadow: 
+        -0.05em -0.025em 0 rgba(255, 0, 0, .75),
+        0.025em 0.025em 0 rgba(0, 255, 0, .75),
+        -0.05em -0.05em 0 rgba(0, 0, 255, .75);
+    }
+    50%{
+        text-shadow: 
+        0.025em 0.05em 0 rgba(255, 0, 0, .75),
+        0.05em 0 0 rgba(0, 255, 0, .75),
+        0 -0.05em 0 rgba(0, 0, 255, .75);
+    }
+    99%{
+        text-shadow: 
+        0.025em 0.05em 0 rgba(255, 0, 0, .75),
+        0.05em 0 0 rgba(0, 255, 0, .75),
+        0 -0.05em 0 rgba(0, 0, 255, .75);
+    }
+    100%{
+        text-shadow: 
+        -0.025em 0 0 rgba(255, 0, 0, .75),
+        -0.025em -0.025em 0 rgba(0, 255, 0, .75),
+        -0.025em -0.05em 0 rgba(0, 0, 255, .75);
+    }
+}
