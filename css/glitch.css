@@ -79,16 +79,14 @@
     }
 }
 
-@media screen and (max-width: 375px){
+@media only screen
+and (min-width: 375px)
+and (max-width: 480px){
     .glitch{
         font-size: 3.5rem;
     }
 }
-@media screen and (max-width: 480px){
-    .glitch{
-        font-size: 4.5rem;
-    }
-}
+
 @media screen and (max-width: 320px){
     .glitch{
         font-size: 3rem;
