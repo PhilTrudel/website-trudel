@@ -78,3 +78,20 @@
         -0.025em -0.05em 0 rgba(0, 0, 255, .75);
     }
 }
+
+@media screen and (max-width: 400px){
+    .glitch{
+        font-size: 3.5rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .glitch{
+        font-size: 4.5rem;
+    }
+}
+@media screen and (max-width: 350px){
+    .glitch{
+        font-size: 3rem;
+    }
+}
+
