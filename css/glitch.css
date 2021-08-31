@@ -87,7 +87,8 @@ and (max-width: 480px){
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 375px)
+and (min-width:320px){
     .glitch{
         font-size: 3rem;
     }
