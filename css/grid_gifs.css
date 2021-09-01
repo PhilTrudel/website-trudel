@@ -22,7 +22,7 @@ and (min-width: 375px)
 and (max-width: 480px){
   .grid{
     width: 90%;
-    margin-left: 5vw;
+    margin: 0 5vw;
   }
   .grid img{
     height: 100%;
@@ -34,7 +34,7 @@ and (max-width: 480px){
 and (min-width:320px){
   .grid{
     width: 90%;
-    margin-left: 5vw;
+    margin: 0 5vw;
   }
   .grid img{
     height: 100%;
@@ -45,7 +45,7 @@ and (min-width:320px){
 @media screen and (max-width: 320px){
   .grid{
     width: 90%;
-    margin-left: 5vw;
+    margin: 0 5vw;
   }
   .grid img{
     height: 100%;
