@@ -30,7 +30,7 @@ and (max-width: 480px){
     }
 }
 
-@media screen and (max-width: 375px)
+@media screen and (max-width: 374px)
 and (min-width:320px){
   .grid{
     width: 90%;
@@ -42,7 +42,7 @@ and (min-width:320px){
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 319px){
   .grid{
     width: 90%;
     margin: 0 5vw;
