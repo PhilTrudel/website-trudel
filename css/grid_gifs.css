@@ -1,0 +1,18 @@
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2994a; 
+    background: linear-gradient(to right, #f2994a, #f2c94c); /* https://uigradients.com/#Sunkist */
+    width: 100%;
+    height: 100%;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+  }
+  
+  .grid img { 
+    display: block;
+    height: 100%;
+    max-height: 400px;
+  }
