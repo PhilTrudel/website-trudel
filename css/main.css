@@ -58,17 +58,9 @@ h3{
 /*CSS ci-bas juste pour la page temporaire*/
 .text{
     font-size: 22px;
-    font-family: 'Rubik', sans-serif;
-    margin:auto;
-    padding: 0 0 1vh 0;
-    align-items: center;
-    text-align: center;
-}
-.review{
-    font-size: 16px;
     font-family: 'Mulish', sans-serif;
     margin:auto;
-    padding-top: 5vh;
+    padding: 0 0 1vh 0;
     align-items: center;
     text-align: center;
 }
