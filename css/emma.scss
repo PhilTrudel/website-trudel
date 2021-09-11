@@ -22,6 +22,21 @@ body {
   background-color: #4d4d4d !important;
 }
 
+.text-box{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+footer{
+  margin: 3vh 2em 3vh 2em;
+  background-color: red;
+  .copyright{
+    text-decoration: none;
+    color: black;
+  }
+}
+
 
 .js {
   .cd-h-timeline {
