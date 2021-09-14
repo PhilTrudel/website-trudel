@@ -22,16 +22,19 @@
     margin: 0;
 }
 
-html {scroll-behavior: smooth;}
-
-body{
-    background: #232526;  /* fallback for old browsers */
-    min-height: 75vh;
-    display:grid;
-    place-items: center;
-    color:var(--text);
-    font-family: 'Rubik', sans-serif;
+html {
+    scroll-behavior: smooth;
+    body{
+        background: var(--background);  /* fallback for old browsers */
+        min-height: 75vh;
+        display:grid;
+        place-items: center;
+        color:var(--text);
+        font-family: 'Rubik', sans-serif;
+    }
 }
+
+
 
 h1{
     font-size: 40px;
@@ -55,7 +58,7 @@ h3{
     cursor: pointer;
   }
   
-/*CSS ci-bas juste pour la page temporaire*/
+
 .text{
     font-size: 22px;
     font-family: 'Mulish', sans-serif;
@@ -64,3 +67,20 @@ h3{
     align-items: center;
     text-align: center;
 }
+
+.orange{
+    color: var(--orange);
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25em;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    transition: all 150ms ease-in-out;
+}
+
