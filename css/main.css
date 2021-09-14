@@ -1,0 +1,145 @@
+@import url(glitch.css);
+@import url(footer.css);
+@import url(grid_gifs.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --text:white;
+    --orange:#FF9100;
+    --background:#232526;
+    --background-alt:#444444;
+    --gray:#6D6767;
+    --title:'Rubik', sans-serif;
+    --regular:'Mulish', sans-serif;
+    --highlight:#fcce03;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background: var(--background);  /* fallback for old browsers */
+    min-height: 75vh;
+    display:grid;
+    place-items: center;
+    color:var(--text);
+    font-family: 'Rubik', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    font-family: var(--title);
+    color: var(--text);
+}
+
+h2{
+    font-size: 34px;
+    font-family: var(--title);
+    color: var(--text);
+}
+
+h3{
+    font-size: 28px;
+    font-family: var(--title);
+    color: var(--text);
+}
+ 
+.orange{
+    color: var(--orange);
+}
+/* navbar and logo */
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: all 150ms ease-in-out;
+}
+
+.navbar_container{
+    display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 80px;
+  z-index: 1;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+#navbar_logo{
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--title);
+    font-size: 1.25em;  
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* arrow down and parent */
+.hero {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-down{
+    position: absolute;
+    bottom: 10vh;
+    font-size: 5em;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.arrow-down a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    margin-bottom:4rem;
+}
+
+.moi{
+    position: relative;
+    height: 500px;
+    border-radius: 50%;
+    transform: scale(45%);
+    border:5px black solid;
+}
+
+.box-img{
+    width: 100%;
+    margin-bottom: 6rem;
+    height: 100%;
+}
+
+.box-img .text-img{
+    font-size: 22px;
+    font-family: var(--regular);
+    align-items: center;
+    text-align: center;
+}
+
+#projets .container-fluid{
+    background-color: var(--background-alt);
+}
