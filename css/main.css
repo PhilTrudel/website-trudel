@@ -138,8 +138,13 @@ section{
     font-family: var(--regular);
     align-items: center;
     text-align: center;
+    display: block;
+    margin: 0;
 }
 
-#projets .container-fluid{
+#projets{
     background-color: var(--background-alt);
+    height: 100%;
+    width: 100%;
+    box-sizing: content-box;
 }
