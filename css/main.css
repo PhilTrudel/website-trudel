@@ -48,6 +48,7 @@ h2{
     font-family: var(--title);
     color: var(--text);
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 h3{
@@ -122,9 +123,6 @@ section{
     height: 100vh;
 }
 
-section #bio{
-    height: 0;
-}
 
 .moi{
     position: relative;
@@ -156,4 +154,8 @@ section #bio{
 
 .btn{
     font-weight: bold;
+}
+
+.card{
+    border: 2.5px black solid;
 }
