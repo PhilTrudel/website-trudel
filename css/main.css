@@ -121,9 +121,9 @@ section{
 
 .moi{
     position: relative;
-    height: 500px;
+    height: 200px;
     border-radius: 50%;
-    transform: scale(45%);
+    margin-top: 10rem;
     border:5px black solid;
 }
 
@@ -140,6 +140,7 @@ section{
     text-align: center;
     display: block;
     margin: 0;
+    margin-top: 1.8rem;
 }
 
 #projets{
