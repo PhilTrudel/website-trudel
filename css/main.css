@@ -23,7 +23,7 @@
     padding: 0;
     margin: 0;
 }
-
+a{text-decoration: none;}
 html {
     scroll-behavior: smooth;
     
@@ -36,7 +36,7 @@ p{
 }
 
 #propos p{
-    padding: 0 20em;
+    padding: 0 15em;
     font-size: 1.275em;
 }
 
