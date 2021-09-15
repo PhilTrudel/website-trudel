@@ -1,6 +1,7 @@
 @import url(glitch.css);
 @import url(footer.css);
 @import url(grid_gifs.css);
+@import url(skills.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -28,6 +29,22 @@ html {
     
 }
 
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1em;
+}
+
+#propos p{
+    padding: 0 20em;
+    font-size: 1.275em;
+}
+
+#contact p{
+    padding: 0 20em;
+    font-size: 1.2751em;
+}
+
 body{
     background: var(--background);  /* fallback for old browsers */
     min-height: 75vh;
@@ -41,6 +58,7 @@ h1{
     font-size: 40px;
     font-family: var(--title);
     color: var(--text);
+    text-transform: uppercase;
 }
 
 h2{
@@ -55,6 +73,7 @@ h3{
     font-size: 28px;
     font-family: var(--title);
     color: var(--text);
+    text-transform: uppercase;
 }
  
 .orange{
@@ -120,7 +139,6 @@ h3{
 
 section{
     margin-bottom:4rem;
-    height: 100vh;
 }
 
 
@@ -158,4 +176,8 @@ section{
 
 .card{
     border: 2.5px black solid;
+}
+
+.skills{
+    padding:5rem 2rem;
 }
