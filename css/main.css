@@ -11,6 +11,7 @@
     --background:#232526;
     --background-alt:#444444;
     --gray:#6D6767;
+    --light-gray:#d3d3d3;
     --title:'Rubik', sans-serif;
     --regular:'Mulish', sans-serif;
     --highlight:#fcce03;
@@ -46,6 +47,7 @@ h2{
     font-size: 34px;
     font-family: var(--title);
     color: var(--text);
+    font-weight: bold;
 }
 
 h3{
@@ -117,6 +119,11 @@ h3{
 
 section{
     margin-bottom:4rem;
+    height: 100vh;
+}
+
+section #bio{
+    height: 0;
 }
 
 .moi{
@@ -143,9 +150,10 @@ section{
     margin-top: 1.8rem;
 }
 
-#projets{
-    background-color: var(--background-alt);
-    height: 100%;
-    width: 100%;
-    box-sizing: content-box;
+.card-body{
+    background-color:var(--light-gray);
+}
+
+.btn{
+    font-weight: bold;
 }
