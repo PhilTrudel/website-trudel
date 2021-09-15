@@ -124,7 +124,7 @@ section{
     height: 200px;
     border-radius: 50%;
     margin-top: 10rem;
-    border:5px black solid;
+    border:5px var(--orange) solid;
 }
 
 .box-img{
