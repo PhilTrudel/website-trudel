@@ -185,6 +185,11 @@ section{
     background-color:pink;
 }
 
-.bg-custom{
-    background-color: var(--background) !important;
+@media screen and (max-width:1000px){
+    .bg-custom{
+        background-color: var(--background) !important;
+    }
+    .moi{
+        margin-top: 12rem;
+    }
 }
