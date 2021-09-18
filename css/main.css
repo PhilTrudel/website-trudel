@@ -185,6 +185,6 @@ section{
     background-color:pink;
 }
 
-.bg-dark{
+.bg-custom{
     background-color: var(--background) !important;
 }
