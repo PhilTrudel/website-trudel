@@ -168,6 +168,9 @@ section{
 .card-body{
     background-color:var(--light-gray);
 }
+.card-img-top{
+    background-color: black;
+}
 
 .btn{
     font-weight: bold;
@@ -185,11 +188,77 @@ section{
     background-color:pink;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1580px){
     .bg-custom{
         background-color: var(--background) !important;
     }
     .moi{
         margin-top: 12rem;
     }
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 10rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: var(--title);
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: var(--orange);
+  }
+  
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+  
+  @media screen and (max-width: 1580px) {
+    .sidenav {display:none}
+  }
+
+  @media screen and (min-width:1580px){
+    .ri-menu-line{
+        display: none;
+    }
+  }
+  .ri-menu-line{
+      cursor: pointer;
+      height: 48px;
+      width: 48px;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .ri-menu-line:hover{
+      color:var(--orange);
+  }
+
+.sidenav__menu .sidenav__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar__menu .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
