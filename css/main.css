@@ -103,7 +103,24 @@ h3{
   margin: 0 auto;
   padding: 0 50px;
 }
-
+.navbar-nav{
+    display: grid;
+    width: 100%;
+    grid-template-columns:repeat(4, 125px);
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+    padding-left: 20px;
+}
+.nav-item{
+    padding: 0 1rem;
+}
+.nav-item a{
+    color: white !important;
+    font-size: 16px;
+}
 #navbar_logo{
     text-decoration: none;
     color: var(--white);
@@ -229,11 +246,16 @@ section{
   @media screen and (max-width: 1580px) {
     .sidenav {display:none}
   }
+    
+  @media screen and (max-width: 760px) {
+    .navbar-nav{display: none;}
+  }
 
   @media screen and (min-width:1580px){
     .ri-menu-line{
         display: none;
     }
+    .navbar-nav{display: none;}
   }
   .ri-menu-line{
       cursor: pointer;
